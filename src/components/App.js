@@ -4,7 +4,7 @@ import { Route, BrowserRouter, Link } from 'react-router-dom';
 import CreatePost from './CreatePost';
 import ViewPost from './ViewPost';
 import EditPost from './EditPost';
-import data from './data.json';
+import data from '../data.json';
 
 export default class App extends Component {
     render() {
